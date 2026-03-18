@@ -204,7 +204,7 @@ export default function DashboardPage() {
                 Coherent Dashboard
               </h1>
               <h2 className="text-sm text-black">
-                {dashboardName || 'Global Normothermic Machine Perfusion Market'}
+                {dashboardName || ' Africa Lifting and Offshore Equipment Solutions Market'}
               </h2>
             </div>
           </div>
@@ -214,6 +214,12 @@ export default function DashboardPage() {
         {/* Global KPI Cards */}
         <div className="mb-6">
           <GlobalKPICards />
+          <div className="mt-3 mx-auto max-w-2xl bg-amber-50 border border-amber-300 rounded-lg px-4 py-2 flex items-center justify-center gap-2">
+            <span className="text-amber-600 text-sm font-bold">⚠</span>
+            <p className="text-xs text-amber-800 font-medium">
+              NOTE: All the data in the dashboard is demo data. No Real-World data is related to this.
+            </p>
+          </div>
         </div>
 
 

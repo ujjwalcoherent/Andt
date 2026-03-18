@@ -1,62 +1,64 @@
 {
   "Global": {
-    "By Type": {
-      "Sub-Normothermic Perfusion (20–34°C)": {},
-      "Warm or Normothermic Perfusion (35–37°C)": {}
+    "By Product Type": {
+      "Load Bearing Products": {
+        "Wire Ropes": {},
+        "Synthetic Ropes": {},
+        "Wire Rope Slings": {},
+        "Chain Slings": {}
+      },
+      "Lifting Hardware & Accessories": {
+        "Shackles": {},
+        "Hooks": {},
+        "Master Links": {},
+        "Turnbuckles": {}
+      },
+      "Eyebolts": {},
+      "Pulling & Hoisting Equipment": {
+        "Winches": {},
+        "Capstans": {},
+        "Hoists": {}
+      }
     },
-    "By Organ Type": {
-      "Liver": {},
-      "Heart": {},
-      "Lung": {},
-      "Kidney": {},
-      "Others (Pancreas, Small bowel / Intestine, Composite Tissues / Limb Perfusion (emerging use cases))": {}
+    "By Procurement Channel": {
+      "Direct Sales": {},
+      "Rental": {}
     },
-    "Application / Use Case": {
-      "Organ Preservation": {},
-      "Viability Assessment": {},
-      "Physiologic Transport": {},
-      "Reconditioning Marginal Organs": {},
-      "Others (Research Use / Protocol development)": {}
+    "By Application Type": {
+      "Lifting & Hoisting": {},
+      "Mooring & Anchoring": {},
+      "Towing & Pulling": {},
+      "Load Securing & Lashing": {},
+      "Subsea Deployment": {},
+      "Rigging Operations": {}
     },
-    "By End User": {
-      "Hospitals & Clinics": {},
-      "Specialty Clinic/Centers": {},
-      "Transplant Centers": {},
-      "Others (Research Institutes/Centers, Organ Procurement Organizations, etc.)": {}
+    "By End-Use Industry": {
+      "Offshore Oil & Gas": {},
+      "Offshore Wind": {},
+      "Marine & Shipping": {},
+      "Ports & Terminals": {},
+      "Construction & Infrastructure": {},
+      "Mining & Heavy Industry": {},
+      "Naval & Defense": {}
     },
     "By Region": {
-      "North America": {
-        "U.S.": {},
-        "Canada": {}
+      "Northern Africa": {
+        "Egypt": {},
+        "Algeria": {},
+        "Morocco": {},
+        "Rest of North Africa": {}
       },
-      "Europe": {
-        "U.K.": {},
-        "Germany": {},
-        "Italy": {},
-        "France": {},
-        "Spain": {},
-        "Russia": {},
-        "Rest of Europe": {}
+      "Central Southern Africa": {
+        "Angola": {},
+        "DR Congo": {},
+        "Cameroon": {},
+        "Rest of Central Southern Africa": {}
       },
-      "Asia Pacific": {
-        "China": {},
-        "India": {},
-        "Japan": {},
-        "South Korea": {},
-        "ASEAN": {},
-        "Australia": {},
-        "Rest of Asia Pacific": {}
-      },
-      "Latin America": {
-        "Brazil": {},
-        "Argentina": {},
-        "Mexico": {},
-        "Rest of Latin America": {}
-      },
-      "Middle East & Africa": {
-        "GCC": {},
+      "Southern Africa": {
         "South Africa": {},
-        "Rest of Middle East & Africa": {}
+        "Botswana": {},
+        "Namibia": {},
+        "Rest of Southern Africa": {}
       }
     }
   }
