@@ -1,5 +1,5 @@
 {
-  "Global": {
+  "Angola": {
     "By Product Type": {
       "Load Bearing Products": {
         "Wire Ropes": {},
@@ -40,26 +40,6 @@
       "Construction & Infrastructure": {},
       "Mining & Heavy Industry": {},
       "Naval & Defense": {}
-    },
-    "By Region": {
-      "Northern Africa": {
-        "Egypt": {},
-        "Algeria": {},
-        "Morocco": {},
-        "Rest of North Africa": {}
-      },
-      "Central Southern Africa": {
-        "Angola": {},
-        "DR Congo": {},
-        "Cameroon": {},
-        "Rest of Central Southern Africa": {}
-      },
-      "Southern Africa": {
-        "South Africa": {},
-        "Botswana": {},
-        "Namibia": {},
-        "Rest of Southern Africa": {}
-      }
     }
   }
 }

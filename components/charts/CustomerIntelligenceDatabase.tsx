@@ -48,57 +48,57 @@ const GROUP_DIGITAL = "bg-[#CE93D8] border border-gray-300 px-3 py-2 text-center
 const GROUP_FUTURE = "bg-[#90CAF9] border border-gray-300 px-3 py-2 text-center text-sm font-semibold text-black"
 const GROUP_CMI = "bg-[#FFB74D] border border-gray-300 px-3 py-2 text-center text-sm font-semibold text-black"
 
-// Demo data for Proposition 1 (10 customers)
+// Demo data for Proposition 1 (10 customers - Angola)
 const prop1Data = [
-  { name: 'Sonatrach Offshore Division', business: 'Offshore Operator', equipment: 'Cranes, Wire Ropes, Hoists', facility: 'Offshore Platform', capacity: '150 Tons/Hr', systems: '24' , contact: 'Ahmed Benali', role: 'Procurement Director', email: 'a.benali@sonatrach.dz', phone: '+213 555 012 345', linkedin: 'linkedin.com/in/ahmedbenali', website: 'www.sonatrach.com' },
-  { name: 'Sasol Mining & Energy', business: 'Oil & Gas Company', equipment: 'Winches, Chain Slings, Shackles', facility: 'Onshore Yard', capacity: '200 Tons/Hr', systems: '38', contact: 'Johan van der Merwe', role: 'Operations Manager', email: 'j.vandermerwe@sasol.com', phone: '+27 11 441 3111', linkedin: 'linkedin.com/in/johanvdm', website: 'www.sasol.com' },
-  { name: 'OCP Group', business: 'EPC Contractor', equipment: 'Synthetic Ropes, Capstans', facility: 'Port Terminal', capacity: '80 Tons/Hr', systems: '15', contact: 'Fatima El Mansouri', role: 'Chief Engineer', email: 'f.elmansouri@ocpgroup.ma', phone: '+212 661 234 567', linkedin: 'linkedin.com/in/fatimaelmansouri', website: 'www.ocpgroup.ma' },
-  { name: 'Dangote Oil Refining', business: 'Offshore Operator', equipment: 'Hoists, Wire Rope Slings, Hooks', facility: 'Offshore Platform', capacity: '300 Tons/Hr', systems: '52', contact: 'Chidi Okonkwo', role: 'Plant Manager', email: 'c.okonkwo@dangote.com', phone: '+234 802 345 6789', linkedin: 'linkedin.com/in/chidiokonkwo', website: 'www.dangote.com' },
-  { name: 'Transnet Port Terminals', business: 'Marine Services Provider', equipment: 'Cranes, Winches, Turnbuckles', facility: 'Port Terminal', capacity: '500 Tons/Hr', systems: '85', contact: 'Thabo Mkhize', role: 'Head of Equipment', email: 't.mkhize@transnet.net', phone: '+27 31 308 8000', linkedin: 'linkedin.com/in/thabomkhize', website: 'www.transnet.net' },
   { name: 'Sonangol E.P.', business: 'Offshore Operator', equipment: 'Wire Ropes, Shackles, Eyebolts', facility: 'Offshore Platform', capacity: '180 Tons/Hr', systems: '30', contact: 'Maria da Silva', role: 'Procurement Head', email: 'm.dasilva@sonangol.co.ao', phone: '+244 922 345 678', linkedin: 'linkedin.com/in/mariadasilva', website: 'www.sonangol.co.ao' },
-  { name: 'Egyptian Drilling Company', business: 'EPC Contractor', equipment: 'Hoists, Capstans, Master Links', facility: 'Shipyard', capacity: '120 Tons/Hr', systems: '22', contact: 'Hassan El-Sayed', role: 'Technical Director', email: 'h.elsayed@egydrill.com', phone: '+20 100 234 5678', linkedin: 'linkedin.com/in/hassanelsayed', website: 'www.egydrill.com' },
-  { name: 'Sapref (Shell/BP JV)', business: 'Oil & Gas Company', equipment: 'Chain Slings, Wire Rope Slings', facility: 'Onshore Yard', capacity: '250 Tons/Hr', systems: '44', contact: 'Pieter Botha', role: 'Maintenance Manager', email: 'p.botha@sapref.com', phone: '+27 31 902 5000', linkedin: 'linkedin.com/in/pieterbotha', website: 'www.sapref.com' },
-  { name: 'NNPC Offshore', business: 'Offshore Operator', equipment: 'Winches, Synthetic Ropes, Hooks', facility: 'Offshore Platform', capacity: '220 Tons/Hr', systems: '36', contact: 'Aminu Ibrahim', role: 'Supply Chain Lead', email: 'a.ibrahim@nnpc.gov.ng', phone: '+234 803 456 7890', linkedin: 'linkedin.com/in/aminuibrahim', website: 'www.nnpc.gov.ng' },
-  { name: 'Maersk Drilling Africa', business: 'Marine Services Provider', equipment: 'Cranes, Hoists, Turnbuckles, Eyebolts', facility: 'Shipyard', capacity: '400 Tons/Hr', systems: '65', contact: 'Lars Andersen', role: 'Regional Director', email: 'l.andersen@maersk.com', phone: '+45 33 63 3363', linkedin: 'linkedin.com/in/larsandersen', website: 'www.maersk.com' },
+  { name: 'Sonangol Logistics', business: 'Marine Services Provider', equipment: 'Cranes, Winches, Turnbuckles', facility: 'Port Terminal', capacity: '320 Tons/Hr', systems: '54', contact: 'Pedro Neto', role: 'Head of Logistics', email: 'p.neto@sonangol.co.ao', phone: '+244 923 456 789', linkedin: 'linkedin.com/in/pedroneto', website: 'www.sonangol.co.ao' },
+  { name: 'TotalEnergies Angola', business: 'Offshore Operator', equipment: 'Hoists, Wire Rope Slings, Hooks', facility: 'Offshore Platform', capacity: '280 Tons/Hr', systems: '46', contact: 'Jean-Luc Moreau', role: 'Asset Manager', email: 'jl.moreau@totalenergies.com', phone: '+244 924 567 890', linkedin: 'linkedin.com/in/jlmoreau', website: 'www.totalenergies.com' },
+  { name: 'BP Angola (Block 18)', business: 'Oil & Gas Company', equipment: 'Winches, Chain Slings, Capstans', facility: 'Offshore Platform', capacity: '350 Tons/Hr', systems: '62', contact: 'Simon Adeyemi', role: 'Operations Director', email: 's.adeyemi@bp.com', phone: '+244 925 678 901', linkedin: 'linkedin.com/in/simonadeyemi', website: 'www.bp.com' },
+  { name: 'Eni Angola S.p.A.', business: 'Offshore Operator', equipment: 'Synthetic Ropes, Shackles, Master Links', facility: 'Offshore Platform', capacity: '210 Tons/Hr', systems: '38', contact: 'Giulia Ricci', role: 'Technical Manager', email: 'g.ricci@eni.com', phone: '+244 926 789 012', linkedin: 'linkedin.com/in/giuliaricci', website: 'www.eni.com' },
+  { name: 'Chevron Angola (Cabinda)', business: 'Oil & Gas Company', equipment: 'Wire Ropes, Hoists, Eyebolts', facility: 'Offshore Platform', capacity: '400 Tons/Hr', systems: '70', contact: 'James Okwu', role: 'Supply Chain Manager', email: 'j.okwu@chevron.com', phone: '+244 927 890 123', linkedin: 'linkedin.com/in/jamesokwu', website: 'www.chevron.com' },
+  { name: 'Porto de Luanda Authority', business: 'Marine Services Provider', equipment: 'Cranes, Turnbuckles, Wire Rope Slings', facility: 'Port Terminal', capacity: '500 Tons/Hr', systems: '85', contact: 'António Ferreira', role: 'Port Equipment Director', email: 'a.ferreira@portoLuanda.ao', phone: '+244 222 310 000', linkedin: 'linkedin.com/in/antonioferreira', website: 'www.portoluanda.ao' },
+  { name: 'Subsea 7 Angola', business: 'EPC Contractor', equipment: 'Capstans, Hoists, Chain Slings', facility: 'Shipyard', capacity: '150 Tons/Hr', systems: '28', contact: 'Kwame Asante', role: 'Project Director', email: 'k.asante@subsea7.com', phone: '+244 928 901 234', linkedin: 'linkedin.com/in/kwameasante', website: 'www.subsea7.com' },
+  { name: 'Saipem Angola', business: 'EPC Contractor', equipment: 'Wire Ropes, Winches, Hooks', facility: 'Shipyard', capacity: '190 Tons/Hr', systems: '33', contact: 'Marco Bianchi', role: 'Construction Manager', email: 'm.bianchi@saipem.com', phone: '+244 929 012 345', linkedin: 'linkedin.com/in/marcobianchi', website: 'www.saipem.com' },
+  { name: 'Angola LNG (Soyo)', business: 'Oil & Gas Company', equipment: 'Hoists, Eyebolts, Master Links, Shackles', facility: 'Onshore Yard', capacity: '240 Tons/Hr', systems: '41', contact: 'Carlos Mbemba', role: 'Maintenance Lead', email: 'c.mbemba@angolalng.com', phone: '+244 930 123 456', linkedin: 'linkedin.com/in/carlosmbemba', website: 'www.angolalng.com' },
 ]
 
-// Demo data for Proposition 2 & 3 (12 customers)
+// Demo data for Proposition 2 & 3 (12 customers - Angola)
 const prop2Data = [
   ...prop1Data,
-  { name: 'TotalEnergies Africa', business: 'Oil & Gas Company', equipment: 'Wire Ropes, Cranes, Shackles', facility: 'Offshore Platform', capacity: '350 Tons/Hr', systems: '58', contact: 'Jean-Pierre Duval', role: 'Asset Manager', email: 'jp.duval@totalenergies.com', phone: '+33 1 47 44 4546', linkedin: 'linkedin.com/in/jpduval', website: 'www.totalenergies.com' },
-  { name: 'Nacala Logistics Corridor', business: 'Marine Services Provider', equipment: 'Winches, Chain Slings, Capstans', facility: 'Port Terminal', capacity: '160 Tons/Hr', systems: '28', contact: 'Carlos Machel', role: 'Port Operations Lead', email: 'c.machel@nacalalogistics.com', phone: '+258 84 567 8901', linkedin: 'linkedin.com/in/carlosmachel', website: 'www.nacalalogistics.com' },
+  { name: 'ExxonMobil Angola', business: 'Offshore Operator', equipment: 'Wire Ropes, Cranes, Shackles', facility: 'Offshore Platform', capacity: '380 Tons/Hr', systems: '65', contact: 'David Nzinga', role: 'Procurement Director', email: 'd.nzinga@exxonmobil.com', phone: '+244 931 234 567', linkedin: 'linkedin.com/in/davidnzinga', website: 'www.exxonmobil.com' },
+  { name: 'Cabinda Gulf Oil Company', business: 'Oil & Gas Company', equipment: 'Winches, Chain Slings, Capstans', facility: 'Offshore Platform', capacity: '165 Tons/Hr', systems: '29', contact: 'Filomena Teixeira', role: 'Logistics Manager', email: 'f.teixeira@cabindagulf.com', phone: '+244 932 345 678', linkedin: 'linkedin.com/in/filomenateixeira', website: 'www.cabindagulf.com' },
 ]
 
-// Additional fields for Proposition 2
+// Additional fields for Proposition 2 (Angola)
 const prop2Extra = [
-  { budget: '$2.4M', model: 'OEM Direct', leadTime: '8', replaceCycle: '7' },
-  { budget: '$3.8M', model: 'Distributor', leadTime: '12', replaceCycle: '5' },
-  { budget: '$1.1M', model: 'EPC Contractor', leadTime: '6', replaceCycle: '8' },
-  { budget: '$5.2M', model: 'OEM Direct', leadTime: '10', replaceCycle: '6' },
-  { budget: '$8.5M', model: 'OEM Direct', leadTime: '14', replaceCycle: '4' },
-  { budget: '$2.9M', model: 'Distributor', leadTime: '9', replaceCycle: '6' },
-  { budget: '$1.8M', model: 'EPC Contractor', leadTime: '7', replaceCycle: '7' },
-  { budget: '$4.1M', model: 'Distributor', leadTime: '11', replaceCycle: '5' },
-  { budget: '$3.5M', model: 'OEM Direct', leadTime: '10', replaceCycle: '6' },
-  { budget: '$6.7M', model: 'OEM Direct', leadTime: '16', replaceCycle: '4' },
-  { budget: '$4.8M', model: 'Distributor', leadTime: '12', replaceCycle: '5' },
-  { budget: '$2.2M', model: 'EPC Contractor', leadTime: '8', replaceCycle: '7' },
+  { budget: '$2.9M', model: 'OEM Direct', leadTime: '9', replaceCycle: '6' },
+  { budget: '$4.2M', model: 'OEM Direct', leadTime: '11', replaceCycle: '5' },
+  { budget: '$5.1M', model: 'Distributor', leadTime: '10', replaceCycle: '6' },
+  { budget: '$7.3M', model: 'OEM Direct', leadTime: '14', replaceCycle: '4' },
+  { budget: '$3.6M', model: 'Distributor', leadTime: '9', replaceCycle: '7' },
+  { budget: '$8.2M', model: 'OEM Direct', leadTime: '16', replaceCycle: '4' },
+  { budget: '$6.5M', model: 'OEM Direct', leadTime: '12', replaceCycle: '5' },
+  { budget: '$2.1M', model: 'EPC Contractor', leadTime: '7', replaceCycle: '8' },
+  { budget: '$3.3M', model: 'EPC Contractor', leadTime: '8', replaceCycle: '7' },
+  { budget: '$4.7M', model: 'Distributor', leadTime: '10', replaceCycle: '5' },
+  { budget: '$9.1M', model: 'OEM Direct', leadTime: '18', replaceCycle: '4' },
+  { budget: '$2.5M', model: 'Distributor', leadTime: '8', replaceCycle: '6' },
 ]
 
-// Additional fields for Proposition 3
+// Additional fields for Proposition 3 (Angola)
 const prop3Extra = [
-  { automation: 'Semi Automatic', plcScada: '45%', smart: 'Yes', predictive: 'Medium', remote: 'Yes', expansion: '15%', newPurchases: '8 units', newAreas: 'Deepwater drilling', newFacility: 'No', benchmark: 'High potential - strategic account', notes: 'Key player in Algerian offshore sector' },
-  { automation: 'Manual', plcScada: '20%', smart: 'No', predictive: 'Low', remote: 'No', expansion: '25%', newPurchases: '12 units', newAreas: 'Coal-to-liquids expansion', newFacility: 'Yes', benchmark: 'High potential - expanding operations', notes: 'Diversifying into renewable energy' },
-  { automation: 'Semi Automatic', plcScada: '35%', smart: 'No', predictive: 'Medium', remote: 'Yes', expansion: '10%', newPurchases: '5 units', newAreas: 'Port automation', newFacility: 'No', benchmark: 'Medium potential - niche operator', notes: 'Focus on phosphate export terminals' },
-  { automation: 'Fully', plcScada: '70%', smart: 'Yes', predictive: 'Medium', remote: 'Yes', expansion: '30%', newPurchases: '20 units', newAreas: 'Deepwater projects', newFacility: 'Yes', benchmark: 'High potential - major investment pipeline', notes: 'Largest private refinery in Africa' },
-  { automation: 'Fully', plcScada: '80%', smart: 'Yes', predictive: 'Medium', remote: 'Yes', expansion: '20%', newPurchases: '30 units', newAreas: 'Container terminal expansion', newFacility: 'Yes', benchmark: 'High potential - government backed', notes: 'Modernizing all port infrastructure' },
-  { automation: 'Semi Automatic', plcScada: '30%', smart: 'No', predictive: 'Low', remote: 'No', expansion: '12%', newPurchases: '6 units', newAreas: 'Pre-salt exploration', newFacility: 'No', benchmark: 'Medium potential - budget constraints', notes: 'Angolan national oil company' },
-  { automation: 'Semi Automatic', plcScada: '50%', smart: 'Yes', predictive: 'Medium', remote: 'Yes', expansion: '18%', newPurchases: '10 units', newAreas: 'Mediterranean deepwater', newFacility: 'No', benchmark: 'High potential - technical capability', notes: 'Strong technical team, open to partnerships' },
-  { automation: 'Manual', plcScada: '15%', smart: 'No', predictive: 'Low', remote: 'No', expansion: '8%', newPurchases: '4 units', newAreas: 'None planned', newFacility: 'No', benchmark: 'Medium potential - aging equipment', notes: 'Equipment replacement cycle due 2027' },
-  { automation: 'Semi Automatic', plcScada: '40%', smart: 'Yes', predictive: 'Medium', remote: 'Yes', expansion: '22%', newPurchases: '15 units', newAreas: 'Deepwater Gulf of Guinea', newFacility: 'Yes', benchmark: 'High potential - rapid growth', notes: 'Expanding offshore fleet significantly' },
-  { automation: 'Fully', plcScada: '85%', smart: 'Yes', predictive: 'Medium', remote: 'Yes', expansion: '15%', newPurchases: '18 units', newAreas: 'Offshore wind (pilot)', newFacility: 'No', benchmark: 'High potential - premium client', notes: 'Global standards, strong procurement process' },
-  { automation: 'Fully', plcScada: '75%', smart: 'Yes', predictive: 'Medium', remote: 'Yes', expansion: '28%', newPurchases: '22 units', newAreas: 'Deepwater West Africa', newFacility: 'Yes', benchmark: 'High potential - expansion phase', notes: 'Major capex cycle 2026-2030' },
-  { automation: 'Semi Automatic', plcScada: '25%', smart: 'No', predictive: 'Low', remote: 'No', expansion: '10%', newPurchases: '7 units', newAreas: 'LNG terminal support', newFacility: 'No', benchmark: 'Medium potential - niche logistics', notes: 'Growing Mozambique corridor operations' },
+  { automation: 'Semi Automatic', plcScada: '30%', smart: 'No', predictive: 'Low', remote: 'No', expansion: '12%', newPurchases: '6 units', newAreas: 'Pre-salt deepwater expansion', newFacility: 'No', benchmark: 'Medium potential - budget constraints', notes: 'Angolan national oil company, key account' },
+  { automation: 'Fully', plcScada: '75%', smart: 'Yes', predictive: 'Medium', remote: 'Yes', expansion: '20%', newPurchases: '22 units', newAreas: 'Luanda port modernization', newFacility: 'Yes', benchmark: 'High potential - government backed', notes: 'Expanding logistics capacity 2026-2029' },
+  { automation: 'Fully', plcScada: '80%', smart: 'Yes', predictive: 'Medium', remote: 'Yes', expansion: '25%', newPurchases: '18 units', newAreas: 'Ultra-deepwater Block 20', newFacility: 'Yes', benchmark: 'High potential - major capex cycle', notes: 'Strong HSSE requirements, global standards' },
+  { automation: 'Fully', plcScada: '85%', smart: 'Yes', predictive: 'Medium', remote: 'Yes', expansion: '30%', newPurchases: '28 units', newAreas: 'Block 31 deepwater phase 2', newFacility: 'Yes', benchmark: 'High potential - premium client', notes: 'Major capex cycle 2026-2031' },
+  { automation: 'Semi Automatic', plcScada: '50%', smart: 'Yes', predictive: 'Medium', remote: 'Yes', expansion: '18%', newPurchases: '12 units', newAreas: 'Block 15/06 expansion', newFacility: 'No', benchmark: 'High potential - technical capability', notes: 'Italian standards, open to local partnerships' },
+  { automation: 'Fully', plcScada: '90%', smart: 'Yes', predictive: 'Medium', remote: 'Yes', expansion: '28%', newPurchases: '30 units', newAreas: 'Deepwater Cabinda blocks', newFacility: 'Yes', benchmark: 'High potential - largest operator', notes: 'Longest running operator in Angola' },
+  { automation: 'Fully', plcScada: '85%', smart: 'Yes', predictive: 'Medium', remote: 'Yes', expansion: '22%', newPurchases: '35 units', newAreas: 'Port expansion Phase 3', newFacility: 'Yes', benchmark: 'High potential - infrastructure modernization', notes: 'National port authority, strategic partner' },
+  { automation: 'Semi Automatic', plcScada: '45%', smart: 'Yes', predictive: 'Medium', remote: 'Yes', expansion: '15%', newPurchases: '10 units', newAreas: 'Subsea pipeline installation', newFacility: 'No', benchmark: 'High potential - technical specialist', notes: 'Strong project pipeline through 2030' },
+  { automation: 'Semi Automatic', plcScada: '40%', smart: 'No', predictive: 'Low', remote: 'No', expansion: '12%', newPurchases: '8 units', newAreas: 'FPSO construction support', newFacility: 'No', benchmark: 'Medium potential - project-based', notes: 'Active in Block 15 and 17 projects' },
+  { automation: 'Manual', plcScada: '20%', smart: 'No', predictive: 'Low', remote: 'No', expansion: '10%', newPurchases: '5 units', newAreas: 'LNG train expansion', newFacility: 'No', benchmark: 'Medium potential - expansion pending', notes: 'Equipment replacement cycle due 2027' },
+  { automation: 'Fully', plcScada: '88%', smart: 'Yes', predictive: 'Medium', remote: 'Yes', expansion: '32%', newPurchases: '25 units', newAreas: 'Block 45 deepwater exploration', newFacility: 'Yes', benchmark: 'High potential - strategic expansion', notes: 'Significant new block investments planned' },
+  { automation: 'Semi Automatic', plcScada: '35%', smart: 'No', predictive: 'Low', remote: 'No', expansion: '8%', newPurchases: '4 units', newAreas: 'Cabinda shallow water', newFacility: 'No', benchmark: 'Medium potential - mature field', notes: 'Legacy operator with modernization plans' },
 ]
 
 interface CustomerIntelligenceDatabaseProps {
